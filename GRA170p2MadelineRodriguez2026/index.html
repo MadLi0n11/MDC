@@ -3,6 +3,40 @@
 <head>
 <meta charset="utf-8">
 <title>Tiramisu | Madeline Rodriguez, 2026</title>
+	<style>
+		wrapper{
+			width:1000px;
+			display:block;
+			margin:auto;
+		}
+		h1{
+			display: inline;
+		}
+		.logo{
+			height:200px;
+			vertical-align: middle;	
+		}
+		section{
+			margin:10px;
+			width:45%;
+			display:inline-block;
+			vertical-align: top;
+		}
+		.ingredients{
+			width: 30%;
+		}
+		.instructions{
+			width: 60%;
+		}
+		body{
+			margin:0;
+			background-image: url("background.jpg");
+			background-size: cover;
+			color: white
+		}
+	
+	
+	</style>
 </head> 
 
 <body>
@@ -12,12 +46,11 @@
 			<h1>Let&rsquo;s Bake It!</h1>
 			<h2>Recipe of the day</h2>
 		</header>
-		<main>
-			<img src="background.jpg" class="background"/> 
+		<main> 
 			<h3>Tiramisu</h3>
 			<img src="banner.jpg" class="banner"/> 
 			<p>Tiramisu is a famous no-bake Italian dessert featuring coffee-soaked ladyfingers (savoiardi) layered with a rich, whipped mixture of mascarpone cheese, eggs, and sugar, topped with cocoa powder. Meaning &ldquo;pick me up&rdquo; in Italian, it is known for its light yet creamy texture, blending bitter espresso with sweet cream, often spiked with Marsala wine or rum.</p>
-			<section>
+			<section class="ingredients">
 				<h4>Ingredients</h4>
 				<ul>
 					<li>
@@ -46,7 +79,7 @@
 					</li>
 				</ul>
 			</section>
-			<section>
+			<section class="instructions">
 				<h4>Instructions</h4>
 				<ol>
 				     <li>
@@ -62,7 +95,7 @@
 					Dust the surface generously with cocoa powder using a fine mesh strainer, then refrigerate for a minimum of 3-4 hours or up to overnight prior to serving.
 					</li>
 				</ol>
-				<h4>Subcatergory of Instructions (espresso)</h4>
+				<h5> For the espresso</h5>
 				<ol>
 					<li>
 						Preheat your coffee machine and let it heat up for at least 15 minutes
