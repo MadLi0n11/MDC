@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Amazing Digital Circus: The Last Act</title>
+	<style>
+		body{
+			margin:0;
+			background-image:url("background.jpg");
+			color:white;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		wrapper{
+			width:1366px;
+			display:block;
+			margin:auto;
+			background-color:rgba(86,85,85,0.80);
+			padding:20px;
+		}
+		#video iframe{
+			width:100%;
+			height:768px;
+			display:block;
+			
+		}
+		#video{
+			position: relative;
+		}
+		
+		.pomnijax {
+			position: absolute;
+			bottom:0px;
+			left:0px;
+		}
+		.kinger {
+			position: absolute;
+			bottom:0px;
+			right:-150px;
+		}
+		header div{
+			display:grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap:10px;
+		}
+		button{
+			padding:10px;
+			font-size:20px;
+			background-color: #328FCC;
+			cursor: url("pointing-finger.png"), auto;
+		}
+		button:hover{
+			background-color: #D83246;
+		}
+		a{
+			text-decoration: none;
+			color:white;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<body>
+	<wrapper>
+		<header>
+		<img src="Logo.png" />
+			<div>
+			<button><a href="#video"> video </a></button>
+		    <button><a href="#synopsis"> synopsis</a> </button>
+			<button><a href="#reviews"> reviews</a> </button>
+			<button><a href="#"> tickets</a> </button> </div>
+		</header>
+		<main>
+		<div id="video"><iframe width="1366" height="768"  src="https://www.youtube.com/embed/AjFk1cY265I?si=VyxHSYY02kIWAGwv?autoplay=1&mute=1loop=1&controls=0&playlist=AjFk1cY265I?si" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe><img src="pomniJax.png" class="pomnijax" /> <img src="kinger.png" class="kinger" /></div>
+			<div id="synopsis"> <h2> With Caine gone and the circus dark, the cast are left with only the mistakes and traumas of their pasts to keep them company. As the prospect of eternity closes in around them, they discover the truth about the Digital Circus and its history.  Will they come to terms with what they uncover, or will they make… the other choice? Also, presumably at some point someone says something funny, because this ending can’t be THAT depressing, can it? </h2></div>
+			<div id="reviews"><h3> "Shocking" MovieGoer -10/10</h3>
+			<h3>"Beutifully Dark"  LashMovie -10/10</h3>
+			<h3>"Emotinally devistaed me" AvrageFan -9.5/10 </h3></div>
+		</main>
+		<footer>
+		<p>&copy; 2026, Madeline Rodriguez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+		</footer>
+		</wrapper>
+</body>
+</html>
